@@ -1,2 +1,2 @@
 #!/bin/sh
-exec chromium --app=https://linear.app "$@"
+exec chromium --app=https://linear.app --load-extension=/usr/share/linear-linux/extension "$@"
