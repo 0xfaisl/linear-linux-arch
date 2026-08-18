@@ -18,13 +18,14 @@ makepkg -si
 
 Then launch `linear-linux` or select **Linear** from the app launcher.
 
-The launcher uses Chromium's normal profile, so Google, email, and SAML sign-in work as they do in the browser.
+The launcher uses Chromium's normal profile, so Google, email, and SAML sign-in work as they do in the browser. Linear links, including Settings, stay in the app.
 
 # Development
 
 ```sh
 makepkg --verifysource
 makepkg -f
+node test-stay-in-app.js
 ```
 
 # Having an issue?

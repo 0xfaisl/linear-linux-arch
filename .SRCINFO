@@ -1,7 +1,7 @@
 pkgbase = linear-linux-arch
 	pkgdesc = Linear desktop launcher for Linux
 	pkgver = 1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://linear.app
 	arch = any
 	license = Apache-2.0
@@ -9,11 +9,15 @@ pkgbase = linear-linux-arch
 	provides = linear-linux
 	conflicts = linear-linux
 	source = linear-linux
+	source = manifest.json
+	source = stay-in-app.js
 	source = linear-linux.desktop
 	source = LICENSE
 	source = linear-app-icon.png
-	sha256sums = ab21e88790470b43bdde0aa43351d3fbc94edfe87fefa71f87465b3ab1674c54
-	sha256sums = 20725a06e8edebd710b78d5b38fbb3176abc48580907ebaea8b0dba78ed7ff76
+	sha256sums = 1997d39c4abf18886257021e25552aa56b536d9e917ff412dcea51fb745ecbfb
+	sha256sums = 7f9596583e556ea03d7efc40ca43e0d38bcfb018e63eb425afb5b3244e5eeb66
+	sha256sums = 4499b0fcf27747c5d3ab5e3333ada94d65f0400838730d8964794d885a6bc386
+	sha256sums = b823448eeb1f038b754e4dd9c21849e5d695ac9b110c9fa2dfecf246b1f4990f
 	sha256sums = c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
 	sha256sums = a58c531ffaac3b8ff9d86a9446bdbc54f61f95026e3274dc6b864b692000ad37
 
