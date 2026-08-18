@@ -12,7 +12,7 @@ source=(
   'linear-linux'
   'linear-linux.desktop'
   'LICENSE'
-  'linear-app-icon.png::https://raw.githubusercontent.com/zacharyftw/linear-linux/master/assets/linear-app-icon.png'
+  'linear-app-icon.png'
 )
 sha256sums=(
   'ab21e88790470b43bdde0aa43351d3fbc94edfe87fefa71f87465b3ab1674c54'
