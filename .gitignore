@@ -1,0 +1,5 @@
+pkg/
+src/
+*.deb
+linear-app-icon.png
+*.pkg.tar.*

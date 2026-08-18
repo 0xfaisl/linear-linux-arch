@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Office;ProjectManagement;
+Exec=linear-linux
+Icon=linear-linux
+Name=Linear
+StartupWMClass=chromium
+Terminal=false
+Type=Application
